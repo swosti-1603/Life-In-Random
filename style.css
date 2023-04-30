@@ -1,0 +1,132 @@
+.carousel-item img {
+    width: 120px;
+    height: 439px;
+}
+.bg-im1{
+    background: url(bgr.jpg);
+    background-size: cover;
+}
+.bg-beige{
+    background-color: beige;
+}
+.card-text {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bolder;
+}
+.text-font {
+    font-family: 'Poltawski Nowy', serif;
+}
+.nav-font {
+    font-family: 'Roboto Slab', serif;
+}
+.btn-group {
+    font-family: 'Playfair Display', serif;
+}
+.entry-header {
+    margin: 0 400px 25px 0;
+    max-width: 460px;
+    position: relative;
+    background: beige;
+    padding: 65px 45px 55px 55px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.entry-content {
+    display: inline;
+}
+.bg-im {
+    background: url(bg1.jpg);
+    background-size: cover;
+}
+.entry-title {
+ font-family: 'Poltawski Nowy', serif;;
+ margin-bottom: 85px;
+ margin-top: 85px;
+}
+.entry-content {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 19px;
+}
+.container2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 122px 50px;
+    gap: 100px 107px;
+}
+.container2 .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 280px;
+    width: 300px;
+    background-color: beige;
+    border-radius: 20px;
+}
+.container2 .card:hover {
+    height: 320px;
+    transition: 0.5s;
+}
+.container2 .card .imgBx {
+    position: absolute;
+    top: 30px;
+    left: 53px;
+    width: 193px;
+    height: 189px;
+    background-color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.container2 .card:hover .imgBx {
+    top: -100px;
+    scale: 0.8;
+}
+.container2 .card .imgBx img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.container2 .card .content {
+    position: absolute;
+    text-align: center;
+    top: 228px;
+    height: 30px;
+    overflow: hidden;
+}
+.container2 .card:hover .content {
+    height: 250px;
+    top: 128px;
+}
+.container2 .card .content h4 {
+    font-family: 'Source Serif Pro', serif;
+}
+.container2 .card .content h5 {
+    font-family: 'Source Serif Pro', serif;
+}
+.container2 .card .content p {
+    font-family: 'Tillana', cursive;
+}
+.container2 .card .content a {
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+.bg-im2 {
+    background: url(cb2.jpg);
+    background-size: cover;
+}
+.bg-im3 {
+    background: url(bgsc.jpg)no-repeat;
+    background-size: cover;
+}
+.text-center {
+    font-family: 'Libre Baskerville', serif;
+}
